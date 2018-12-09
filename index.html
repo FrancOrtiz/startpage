@@ -89,7 +89,7 @@
             let xhr = new XMLHttpRequest();
             // Request to open weather map
             //xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
-            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=Martorell&units=metric&appid=32121b7f8d78a89af35ca6ebf07c39ec');
+            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=6356143&units=metric&appid=32121b7f8d78a89af35ca6ebf07c39ec');
             xhr.onload = () => {
                 if (xhr.readyState === 4) {
                     if (xhr.status === 200) {
